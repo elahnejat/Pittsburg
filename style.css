@@ -1,0 +1,654 @@
+/* =====================================================================
+Created by Alex for Register page on 8/3/12
+======================================================================== */
+.sign-in-box
+{
+    width: 227px; /*height: 125px;*/
+    background-color: #fff;
+    border: 1px solid #dbdede;
+    position: absolute;
+    top: 31px;
+    right: 120px;
+    z-index: 10000;
+    display: none;
+    padding-bottom: 10px;
+}
+
+.sign-in-box .input
+{
+    width: 190px;
+    margin: 11px 5px 0px 11px;
+    font: italic 12px/18px 'Machinato' , arial;
+    -webkit-box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding-left: 6px;
+}
+
+.sign-in-box .error
+{
+    margin: 5px 10px 0;
+    font-size: 12px;
+    color: Red;
+}
+
+.sign-in-button
+{
+    background-color: #006699;
+    border: none;
+    display: inline-block;
+    color: #ffffff;
+    font-family: 'Machinato' , arial;
+    font-size: 12px;
+    padding: 3px 10px;
+    text-decoration: none;
+    float: right;
+    margin-top: 10px;
+    margin-right: 18px;
+}
+
+.sign-in-button:hover
+{
+    background-color: #ff6600;
+}
+.sign-in-button:active
+{
+    position: relative;
+    top: 1px;
+}
+
+.sign-in-box .other
+{
+    float: left;
+    margin-top: 10px;
+}
+
+.sign-in-box a
+{
+    font-size: 11px;
+    color: #006699;
+    text-decoration: none;
+    display: block;
+    margin-left: 11px;
+}
+
+.sign-in-box hr
+{
+    clear: both;
+    float: left;
+    width: 200px;
+    margin: 5px 10px;
+}
+
+#ToggleForgetUsername, #ToggleForgetPassword
+{
+    clear: both;
+    float: left;
+    margin: 5px 10px;
+}
+
+.black-bar
+{
+    font-family: 'Machinato' , arial;
+    color: #fff;
+    background-color: #000;
+    padding: 17px 110px;
+    margin-top: -1px;
+}
+
+.gray-bar
+{
+    width: 100%;
+    float: left;
+    border: solid 1px #d2d2d2;
+    border-left: 0px;
+    border-right: 0px;
+    background: url(/images/public/nav-bg_03.png) repeat-x left top;
+}
+
+.gray-bar-text
+{
+    width: 200px;
+    height: 39px;
+    border: solid 1px #d2d2d2;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    margin-left: 106px;
+    padding-left: 15px;
+    float: left;
+    overflow: hidden;
+    font: bold 15px/39px 'Machinato' , Arial;
+    color: #006699;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+.container-register
+{
+    position: relative;
+    width: 100%;
+    height: 780px;
+    float: left;
+    background-image: url(/images/public/container-bg1.png);
+    background-repeat: no-repeat;
+}
+
+.container-register .error
+{
+    margin: 10px 10px 0 65px;
+    font-size: 12px;
+    color: Red;
+}
+
+.white-box
+{
+    background: #fff;
+    width: 520px;
+    position: absolute;
+    top: 121px;
+    left: 358px;
+    -webkit-box-shadow: 5px 5px 1px 1px rgba(0, 0, 0, .2);
+    box-shadow: 5px 5px 1px 1px rgba(0, 0, 0, .2);
+}
+
+.white-box h2
+{
+    font: 16px/20px 'Machinato' , Arial;
+    color: #333;
+    padding: 26px 40px 10px;
+}
+
+.white-box input[type=text], .white-box input[type=email], .white-box input[type=password]
+{
+    width: 381px;
+    margin: 16px 5px 0px 66px;
+    font: italic 12px/18px 'Machinato' , arial;
+    -webkit-box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    padding-left: 10px;
+}
+
+.account-button
+{
+    border: none;
+    float: right;
+    text-align: center;
+    vertical-align: top;
+    font: Bold 14px/28px 'Machinato' , Arial;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    background: #ff9933;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 20px;
+    margin: 20px 60px 20px 0;
+    padding: 5px 10px;
+}
+
+.account-button:hover
+{
+    background: #006699;
+}
+
+.white-box p
+{
+    font-size: 12px;
+    color: #333;
+    margin: 0px 0px 33px 0px;
+    padding: 0px 50px 0px 69px;
+}
+
+.white-box a
+{
+    font-size: 12px;
+    color: #007597;
+    text-decoration: none;
+}
+
+.white-box .error
+{
+    color: Red;
+    margin: 0px 0px 33px 0px;
+    padding: 0px 50px 0px 69px;
+}
+
+/* ------- Map -------- */
+.mapTeaserBox
+{
+    color: #e7f3fc;
+    font-size: 11px;
+    width: 150px;
+    background-color: White;
+    border: 1px black solid;
+}
+
+
+/*------- T e m p l a t e   L a y o u t   01a -------*/
+
+#content-page
+{
+    width: 700px;
+    background-color: White;
+    float: left;
+}
+
+/*----------------------------------------- Register page layout (Create an account)*/
+
+#account-description
+{
+    padding-left: 40px;
+    margin-top: 10px;
+}
+
+#account-type
+{
+    width: 390px;
+    margin-left: 66px;
+    color: #333;
+}
+
+.title-background
+{
+    background: #cc3399;
+    width: 170px;
+    padding: 5px 5px 5px 10px; /*border-radius:5px 5px 0px 0px;*/
+}
+
+#public-account
+{
+    width: 185px;
+    height: 80px;
+    float: left;
+    margin: 10px 15px 15px 0px;
+    padding: 0px; /*border-radius: 5px 5px 5px 5px;*/
+    border: 1px solid #cc3399;
+}
+
+#public-account p
+{
+    padding: 0px 0px 0px 10px;
+    font-size: 15px;
+    color: #333;
+    font-style: italic;
+}
+
+.account-titles
+{
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#contributor-account
+{
+    width: 185px;
+    height: 80px;
+    float: right;
+    margin: 10px 0px 15px 0px;
+    padding: 0px; /*border-radius: 5px 5px 5px 5px;*/
+    border: 1px solid #cc3399;
+}
+
+#contributor-account p
+{
+    padding: 0px 0px 0px 10px;
+    font-size: 15px;
+    color: #333;
+    font-style: italic;
+}
+
+/*----------------------------------------- Styling for 404 Page*/
+.container-error
+{
+    position: relative;
+    width: 100%;
+    height: 780px;
+    float: left;
+    background-image: url(/images/public/container-bg1.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+#error-styling
+{
+    margin: 100px auto 0 auto;
+    width: 500px;
+    height: auto;
+    background: #007A82;
+}
+.error-styling-inner
+{
+    padding: 20px;
+}
+.error-sub
+{
+    font-size: 30px;
+    padding-top: 15px;
+}
+#error-styling h1
+{
+    font-size: 50px;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+}
+#error-styling h1 span
+{
+    display: block;
+    font-size: 23px;
+    font-weight: normal;
+    padding-top: 12px;
+}
+.error-img
+{
+    margin: 25px auto 0 auto;
+    width: 400px;
+}
+.error-text
+{
+    width: auto;
+    color: #fff;
+    line-height: 20px;
+    font-size: 15px;
+    margin: 25px 0 0 0;
+    text-align: left;
+}
+.error-text a
+{
+    color: #fff;
+    text-decoration: underline;
+}
+
+/*My styles; style changes*/
+/*Author = Elaheh Nejat / elahehn@civicresource.com / 323-333-4643 */
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* Google web fonts for Helvetica nad Myriad Pro */
+
+article.film-box .detail p, body, html, form, fieldset {
+    font-family: 'PT Sans', sans-serif;  /*this is Myriad pro Regular for web*/
+}
+
+section.days .day-name, section.days2 .day-name {
+    font-family: 'PT Sans Caption', sans-serif;  /*this is Myriad pro Bold for web*/
+}
+
+.date-picker .month {
+    font-family: 'Open Sans', Helvetica, sans-serif;  /*this is Helvetica Bold for web*/
+}
+
+.date-picker .month small {
+    font-family: 'Open Sans', sans-serif;  /*this is Helvetica Bold for web*/
+}
+
+.date-picker ul li a {
+    font-family: 'PT Sans', sans-serif;  /*this is Myriad pro Regular for web*/
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+body { background: #e7f3fc; }
+
+/*+++++++++++++++++++BOX SHADOW++++++++++++++++++++++++*/
+article.film-box, article.event-box, .event-detail-box-right, .single-day-map-view, .feature-shadow
+{
+    box-shadow: 0px 2px 2px #333;
+    -moz-box-shadow: 0px 2px 2px #333;
+    -webkit-box-shadow: 0px 2px 2px #333;
+    -o-box-shadow: 0px 2px 2px #333;
+    behavior: url(/css/public/PIE.htc);
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#header-wrapper{
+  background:none;
+}
+
+.header-top {
+  background-color: #fff;
+}
+
+.toggle { 
+  background: none repeat scroll 0% 0% rgba(204, 204, 204, 0.3);
+}
+
+.header-top .buttons a {
+    padding: 3px;
+    margin: 0px 5px;
+    background: none repeat scroll 0% 0% rgba(204, 204, 204, 0.3);
+    text-transform: capitalize;
+    font-weight:bold;
+    font-style:normal;
+	
+}
+
+.header-top .buttons a.sign-in {
+  color: #006699;
+}
+
+.header-top .buttons {
+     right: 110px;
+}
+
+.header-bottom {
+   background-color: #ccc;
+}
+
+#activeDate li a {
+    border: 6px solid #66cc33;
+}
+
+.days.selected_date .day-name, .days2.selected_date .day-name {
+    background: none repeat scroll 0% 0% #390;
+}
+
+.days.selected_date .day-name .arrow, .days2.selected_date .day-name .arrow {
+    border-top: 8px solid #339900;
+}
+
+section.days .day-name, section.days2 .day-name {
+   background: none repeat scroll 0% 0% #1C6633;
+}
+
+section.days .day-name .arrow, section.days2 .day-name .arrow {
+    border-top: 8px solid #1C6633;
+}
+
+.date-picker ul li.next-day a {
+    background: none repeat scroll 0% 0% #000;
+}
+
+a, .plus a, footer p a, footer p a:hover, article.film-box .detail p a  {
+    color: #006699;
+}
+
+a:hover {
+    color:#ff9933;
+}
+
+article.film-box .detail h2:hover{
+    color:#333;
+}
+
+
+a, .plus a:hover {
+    color: #006699;
+}
+
+.date-picker ul li a:hover {
+    background:#ff9933;
+    font-weight: bold;
+}
+
+.minus img {
+    top: -1px;
+}
+
+.plus a {
+    font: bold 16px/39px 'PT Sans Caption', sans-serif;
+}
+
+section.days .day-name, section.days2 .day-name {
+    font: bold 20px/40px 'PT Sans Caption', sans-serif;
+    letter-spacing:-0.009em;
+}
+
+section.days .day-name span, section.days2 .day-name span {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.container {
+    background: none;
+}
+
+footer {
+    background: linear-gradient(to bottom, rgba(221, 214, 214, 1) 1%, rgba(136, 177, 191, 1) 75%) repeat scroll 0% 0% transparent; 
+}
+
+footer p {
+    color: #333333;
+}
+
+#loader a {
+    background: none repeat scroll 0% 0% #cc3399;
+    color: #FFF;
+    text-decoration:none;
+    padding: 10px 0px; 
+    text-transform: capitalize;
+}
+
+article.film-box .detail a.info {
+    display: none;
+}
+
+article.film-box .map, article.film-box .time {
+    letter-spacing: -0.04em;
+    font: 14px/24px 'PT Sans Caption', sans-serif;
+}
+
+.prev-day-btn, .next-day-btn {
+    opacity: 0.30;
+}
+
+article.film-box img {
+    border:thin solid #fff; 
+}
+
+/* TODO:Must change when the website is up*/
+article.film-box .detail a.favorite {
+    top: 30px;
+}
+
+article.film-box img {
+    width: 198px;
+}
+
+#filter_nav li.active a {
+    background-color: #ff9933;
+    color: #000;
+    
+}
+
+
+#contributor-account, #public-account {
+    border: 1px solid #cc3399;
+}
+
+
+.title-background {
+    background: #cc3399;
+}
+
+.account-button {
+    background: none repeat scroll 0% 0% #ff6600;
+
+.account-button a:hover {
+    background:#cc3399;
+}    
+
+    
+.sign-in-box a {
+    color: #006699;
+}
+
+/* All the blue colors=============================================*/
+a { color: #006699; }
+.header-top .buttons a.sign-in { color: #006699; }
+nav .drop-down a { background: #006699; }
+article.film-box .detail p a { color: #006699; }
+article.film-box .map a { color: #006699; }
+.event-detail-box-right .two-a h2 { font:Normal 36px/40px font-family: 'PT Sans', sans-serif; color: #333333; }
+.event-detail-box-right .two-d p a { color: #006699; }
+.event-detail-box-right .three-left h2 { border-bottom: solid 7px #333; font-family: 'PT Sans', sans-serif; color: #006699; }
+.event-detail-box-right .three-right h2 { border-bottom: solid 7px #333; font-family: 'PT Sans', sans-serif; color: #006699; }
+.event-detail-box-right .three-right a.tag { font-family: 'PT Sans', sans-serif; color: #006699; }
+.event-detail-box-right .five h2 { border-bottom: solid 7px #333; font-family: 'PT Sans', sans-serif; color: #006699; }
+.event-detail-box-right .six h2 { border-bottom: solid 7px #333; font-family: 'PT Sans', sans-serif; color: #006699; }
+#featured { background:#006699 }
+a.title-expand h2:hover {color: #006699;}
+.listview article.film-box .secondary-details .info a.tag {font-family: 'PT Sans', sans-serif; color: #006699; }
+.listview .sidebar h3 { color:#006699; }
+.subscribe a:hover { background: #006699; }
+
+
+/* All the Orange colors=============================================*/
+.date-picker ul li a:hover { background:#ff9933; }
+nav .drop-up ul.filter-list li a.selected { color:#ff6600; }
+nav .drop-down a:hover { background: #ff6600; }
+.subscribe a { background: #ff6600; }
+
+/* all the dark greys================================================*/
+.date-picker { background: #333333; }
+.date-picker ul li a span.tip { background: #333333; }
+.date-picker .month { font:42px/74px 'Open Sans', Helvetica, sans-serif; background: #333333; }
+.date-picker .year { font:normal 42px/74px 'Open Sans', Helvetica, sans-serif; background: #333333; }
+article.film-box .detail h2 { font:Bold 18px/20px font-family: 'PT Sans', sans-serif; color: #333; }
+article.film-box .detail p { font:Normal 13px/17px font-family: 'PT Sans', sans-serif; color: #333; }
+article.film-box .time { font:Normal 14px/24px font-family: 'PT Sans', sans-serif; color: #333; }
+article.film-box .map { font:Normal 14px/24px font-family: 'PT Sans', sans-serif; color: #333; }
+.event-box .top { font:Bold 14px/24px font-family: 'PT Sans', sans-serif; color: #333; }
+.event-box .mid ul li { font:Normal 11px/17px font-family: 'PT Sans', sans-serif; color: #333; }
+.event-detail-box-right .two-b p { font:Normal 18px/45px font-family: 'PT Sans', sans-serif; color: #333; }
+.event-detail-box-right .two-c p { font:Normal 13px/18px font-family: 'PT Sans', sans-serif; color: #333; }
+.event-detail-box-right .two-d p { font:Normal 18px/24px font-family: 'PT Sans', sans-serif; color: #333; }
+.event-detail-box-right .three-left p { font:Normal 13px/18px font-family: 'PT Sans', sans-serif; color: #333; }
+.event-detail-box-right .three-right h3 { font:Normal 18px/18px font-family: 'PT Sans', sans-serif; color: #333; }
+.event-detail-box-right .three-right p { font:Normal 13px/18px font-family: 'PT Sans', sans-serif; color: #333; }
+.listview article.film-box .secondary-details .info { color: #333; }
+.search input.search-box { font: italic 14px/22px font-family: 'PT Sans', sans-serif; color: #333; }
+
+/* all ccc greys=================================================*/
+.header-top .buttons a { border: solid 1px #cccccc; font: bold 12px/18px 'PT Sans', sans-serif; }
+.header-bottom { border: solid 1px #ccc; }
+.search { border: solid 1px #ccc; }
+nav ul li { border-right:  solid 1px #ccc; }
+.plus { border-left: 1px solid #ccc; }
+.dates label.divider { border-left: 1px solid #ccc; }
+.toggle { border: solid 1px #cccccc; }
+.contentBox-dashboard img { border:1px solid #ccc; }
+
+/* all 666 greys================================================*/
+.header-top .buttons a.welcome { color: #666666; }
+.header-top .buttons a.sign-up { color: #666666; }
+.search-filter { font: Italic Normal 14px/30px font-family: 'PT Sans', sans-serif; color: #666; }
+.date-picker ul li a { width: 28px; height: 28px; background: #666; }
+.map-layers { border: solid 5px #666; }
+
+/*rest of styles=========================================*/
+
+#reminder {display:none !important;}
+
+.event-detail-box-right .one-right-down a { line-height: 22px;}
+
+article.film-box .detail p a:hover {color: #ff9933; } 
+
+.dash-widget { border: 1px solid #ccc !important;
+
+
